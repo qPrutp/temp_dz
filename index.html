@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/app.css">
 	<title>dz-8</title>
 
 	<!--[if lt IE 9]>
@@ -32,7 +33,7 @@
 						<a class="nav-link" href="#">Графік роботи</a>
 					</li>
 					<li  class="nav-item">
-						<a class="nav-link" href="https://ringoo.ua/magazyny/">Магазини</a>
+						<a class="nav-link" href="#">Магазини</a>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Допомога</a>
@@ -46,7 +47,7 @@
 						</div>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" target="_blank" href="#">Корпоративний сайт</a>
+						<a class="nav-link" href="#">Корпоративний сайт</a>
 					</li>
 				</ul>
 			</div>
@@ -56,26 +57,26 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="row col-md-3 col-xl-2">
+					<div class="col-md-3 col-xl-2">
 						<div class="header__logo">
 							<a id="site_logo" href="#">
 								<img src="./img/logo.svg" alt="Logo">
 							</a>
 						</div>
 						<div class="d-none d-lg-block d-xl-none mr-5 text-right header__info">
-							<a href="tel:0970908707" class="phone header__phone">
+							<a href="tel:0970908707" class="phone">
 								<div class="icon">
-									<img src="https://ringoo.ua/wp-content/themes/ringoo/img/phone_icon.svg" alt="">
+									<img src="./img/phone_icon.svg" alt="">
 								</div>
 								(097) 090-87-07
 							</a>
 							<br>
-							<a href="tel:0730908707" class="phone header__phone menu_second_phone ">
+							<a href="tel:0730908707" class="phone menu_second_phone ">
 								(073) 090-87-07
 							</a>	
 							<div class="btn__cart">
 								<a href="#">
-									<span class="glyphicon glyphicon-shopping-cart">0</span> Кошик
+									<span class="">0</span> Кошик
 								</a>
 							</div>
 						</div>
@@ -111,19 +112,19 @@
 					</div>
 
 					<div class="d-none d-xl-block col-2 text-right header__info">
-						<a href="tel:0970908707" class="phone header__phone">
+						<a href="tel:0970908707" class="phone">
 							<div class="icon">
-								<img src="https://ringoo.ua/wp-content/themes/ringoo/img/phone_icon.svg" alt="">
+								<img src="./img/phone_icon.svg" alt="">
 							</div>
 							(097) 090-87-07
 						</a>
 						<br>
-						<a href="tel:0730908707" class="phone header__phone menu_second_phone ">
+						<a href="tel:0730908707" class="phone menu_second_phone ">
 							(073) 090-87-07
 						</a>	
 						<div class="btn__cart">
 							<a href="#">
-								<span class="glyphicon glyphicon-shopping-cart">0</span> Кошик
+								<span class="">0</span> Кошик
 							</a>
 						</div>
 					</div>
@@ -144,7 +145,7 @@
 						<img src="./img/logo.svg" alt="Logo">
 					</a>
 				</div>
-				<div class="mobile-head__right">
+				<div class="d-flex mobile-head__right">
 					<div class="icon icon__cart" data-search-trigger="">
 						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="18.85" height="18.85" viewBox="0 0 18.85 18.85"><defs><style>.cls-1{fill:#fff;}</style></defs><title>white_menu copy 2</title><path class="cls-1" d="M18.85,18.15l-6.57-6.57a7,7,0,1,0-.71.71l6.57,6.57ZM1,7a6,6,0,1,1,6,6A6,6,0,0,1,1,7Z"></path></svg>
 					</div>
@@ -168,7 +169,7 @@
 			<iframe src="https://secure.esputnik.com.ua/3PtWfbEayes" frameborder="0" width="100%" height="288" scrolling="no"></iframe>
 		</section>
 
-		<section class="breadcrumbs d-none d-lg-block">
+		<section class="d-none d-lg-block breadcrumbs">
 			<div class="container">
 				<span>Головна</span>
 			</div>
@@ -177,11 +178,76 @@
 		<section class="footer__content">
 			<div class="container">
 				<div class="row">
-					<div class="col-3 col-lg-9">
-						1
+					<div class="col-3 col-lg-8 d-flex">
+						<div class="footer__column">
+							<div class="d-none d-lg-block title">Каталог</div>
+							<div class="footer__wrap">
+								<a href="#" class="footer__link">Смартфони</a>
+								<a href="#" class="footer__link">Електроніка</a>
+								<a href="#" class="footer__link">Телефони</a>
+								<a href="#" class="footer__link">Аксессуари</a>
+								<a href="#" class="footer__link">Гаджети</a>
+								<a href="#" class="footer__link">Акції</a>
+							</div>
+						</div>
+
+						<div class="d-none d-lg-block footer__column">
+							<div class="title">Допомога в покупці</div>
+							<div class="footer__wrap">
+								<a href="#" class="footer__link">Оплата</a>
+								<a href="#" class="footer__link">Доставка</a>
+								<a href="#" class="footer__link">На виплат та кредити</a>
+								<a href="#" class="footer__link">Гарантія, повернення, обмін</a>
+								<a href="#" class="footer__link">Адреси сервісних центрів</a>
+								<a href="#" class="footer__link">Як скористатись промокодом</a>
+								<a href="#" class="footer__link">Публічна оферта</a>
+								<a href="#" class="footer__link">Акційні пропозиції</a>
+							</div>
+						</div>
+
+						<div class="d-none d-lg-block footer__column">
+							<div class="title">Про нас</div>
+							<div class="footer__wrap">
+								<a href="#" class="footer__link">Магазини</a>
+								<a href="#" class="footer__link">Про компанію</a>
+								<a href="#" class="footer__link">«Власний Рахунок»</a>
+								<a href="#" class="footer__link">Комісійна торгівля</a>
+								<a href="#" class="footer__link">Робота в компанії</a>
+								<a href="#" class="footer__link">Орендодавцям</a>
+								<a href="#" class="footer__link">Контакти</a>
+							</div>
+						</div>
 					</div>
-					<div class="col-9 col-lg-3">
-						2
+					<div class="col-9 col-lg-4 footer__info">
+						<div class="d-none d-lg-block title">Зв’язатися з нами</div>
+						<a href="tel:0800308480" class="phone footer__phone">
+							<div class="icon"
+								><img src="./img/phone_icon.svg" alt="">
+							</div>
+							0 800 308 480
+						</a>
+						<p>
+							Безкоштовні дзвінки для абонентів усіх українських операторів зв’язку. Дзвінки з питань сервісу та
+							обслуговування. <br>Оформлення замовлення за номерами: <br>
+							<a href="tel:+380970908707"
+								class="footer_small_phone">(097) 090-87-07</a>
+							<br>
+							<a href="tel:+380730908707"
+								class="footer_small_phone">(073) 090-87-07</a>
+						</p>
+						<div class="social__footer social__footer_desktop">
+							<a href="#" class="social__link">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+							<a href="#" class="social__link">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</a>
+							<a href="#" class="social__link">
+								<i class="fa fa-youtube" aria-hidden="true"></i>
+							</a>				
+					
+							<div class="payment_icons_desktop"><img src="./img/pay_sys_icons.png"></div>
+						</div>
 					</div>
 				</div>
 			</div>
