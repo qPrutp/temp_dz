@@ -176,31 +176,39 @@
 		</header>
 
 		<main class="container pt-2 main_item">
+			<div class="row back_to_catalog">
+				<a href="#" class="font-weight-bold" title="До каталогу">&#8592;&#160;До каталогу</a>
+			</div>
+
 			<div class="row">
 				<div class="col-12 col-lg-8">
 					<div class="row">
-						<div class="col-12 col-lg-6 pr-0">
-							<div class="d-block d-lg-none _item_title">
-								title
+						<div class="col-12 col-md-6">
+							<div class="d-block d-md-none _item_title">
+								<h3 class="h-100">XIAOMI Mi9 Lite 6/64GB Aurora Blue</h3>
+								<div class="_item_id">
+									Код товару:
+									<span>G6513928</span>
+								</div>
 							</div>
 
 							<div class="h-100 _item_img_block">
-								<div class="_item__img">
-									<img src="img/6513928_2.jpg" alt="">
+								<div class="text-center _item__img">
+									<img class="" src="img/6513928_2.jpg" alt="">
 								</div>
-								<div class="_item__info_colors">
-									<a href="#">black</a>
-									<a href="#">white</a>
-									<a href="#">green</a>
+								<div class="text-center _item__info_colors">
+									<div class="_product_color _active" title="зелений" style="background-color: #32cd32;"></div>
+									<div class="_product_color" title="чорний" style="background-color: #000000;"></div>
+									<div class="_product_color" title="чорний" style="background-color: #000000;"></div>
 								</div>
-								<div class="_item__video">
+								<div class="text-center mt-1 mb-1 _item__video">
 									<a href="#">
 										<i class="fa fa-youtube" aria-hidden="true"></i>
 										<span>Переглянути відео 1</span>
 									</a>
 								</div>
-								<div class="social_block">
-									<h5 class="h-100 text-center">Підпишись на наші сторінки</h5>
+								<div class="text-center social_block">
+									<h5 class="w-100">Підпишись на наші сторінки</h5>
 									<div class="social__imgs">
 										<a href="./item.html" target="_blank" class="social__link">
 											<i class="fa fa-facebook" aria-hidden="true"></i>
@@ -216,8 +224,8 @@
 							</div>
 						</div>
 
-						<div class="col-12 col-lg-6 pl-0 pr-0">
-							<div class="d-none d-lg-block _item_title">
+						<div class="col-12 col-md-6">
+							<div class="d-none d-md-block _item_title">
 								<h3 class="h-100">XIAOMI Mi9 Lite 6/64GB Aurora Blue</h3>
 								<div class="_item_id">
 									Код товару:
@@ -234,11 +242,8 @@
 										<li>Об'єм вбудованої пам'яті, ГБ: 64 Gb</li>
 									</ul>
 								</div>
-								<div class="_item_equipment">
-									<p>Перший смартфон із подвійною фронтаольною камерою, безмежний екран із співвідношення сторін 19:9.</p>
-								</div>
 								<div class="_item_payment_block">
-									<div class="_payment_header">
+									<div class="d-flex justify-content-center _payment_header">
 										<div class="_payment_header__img">
 											<img src="img/icons8-obmen-karty-64-1.png" alt="">
 										</div>
@@ -246,15 +251,15 @@
 											Як оплатити чи повернути товар
 										</div>
 									</div>
-									<div class="_payment__content">
+									<div class="d-flex justify-content-center mb-2 _payment__content">
 										<div class="_payment_logo">
-											<img src="img/Obmin-ta-Povernennya-1.png" alt="">
+											<img src="img/Oplata-1.png" alt="">
 										</div>
 										<div class="_payment_text">Оплата готівкою, Картою через LiqPay, Безготівковий розрахунок, Кредит, Оплата частинами.</div>
 									</div>
-									<div class="_payment__content">
+									<div class="d-flex justify-content-center _payment__content">
 										<div class="_payment_logo">
-											<img src="img/Oplata-1.png" alt="">
+											<img src="img/Obmin-ta-Povernennya-1.png" alt="">
 										</div>
 										<div class="_payment_text">Обмін та повернення здійснюється протягом 14 днів після покупки, відповідно до закону України"Про захист прав споживачів України"</div>
 									</div>
@@ -264,14 +269,25 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-lg-4 pl-0 pr-0 _item_delivery_block">
+				<div class="col-12 col-lg-4 _item_delivery_block">
 					<div class="_add_to_compare">
-						<img src="img/compare.png" alt="">
-						<span>Додати до порівняння</span>
+						<a href="#" class="d-flex justify-content-end">
+							<img src="img/compare.png" alt="">
+							<span class="ml-2">Додати до порівняння</span>
+						</a>
 					</div>
 
-					<div class="_order_price_block">
-						<p class="text-center">7499 грн</p>
+					<div class="mt-2 p-4 pt-2 text-center _order_price_block">
+						<div class="ml-3 mr-3 header_line"></div>
+						<div class="mt-1 old_price_item">
+							<span>6999</span>
+							<span class="curency">грн</span>
+						</div>
+						<div class="new_price_item">
+							<span>5999</span>
+							<span class="curency">грн</span>
+						</div>
+						<div class="price_difference">(Вигода: 1000.00 грн)</div>
 						<div class="_order_price__buttons">
 							<a href="#">Купити</a>
 							<a href="#">Купити в один клік</a>
@@ -279,15 +295,15 @@
 					</div>
 
 					<div class="_item_payment_block">
-						<div class="_payment_header">
+						<div class="d-flex justify-content-center _payment_header">
 							<div class="_payment_header__img">
 								<img src="img/Gruzovik.png" alt="">
 							</div>
-							<div class="_payment_header__title">
+							<div class="ml-4 _payment_header__title">
 								ДОСТАВКА
 							</div>
 						</div>
-						<div class="_payment__content">
+						<div class="d-flex mb-3 _payment__content">
 							<div class="_payment_logo">
 								<img src="img/Ringo_Dostavka.png" alt="">
 							</div>
@@ -297,7 +313,7 @@
 								вартість доставки: <span>БЕЗКОШТОВНО</span>
 							</div>
 						</div>
-						<div class="_payment__content">
+						<div class="d-flex mb-3 _payment__content">
 							<div class="_payment_logo">
 								<img src="img/Ringo_Dostavka.png" alt="">
 							</div>
@@ -307,7 +323,7 @@
 								вартість доставки: <span>БЕЗКОШТОВНО</span>
 							</div>
 						</div>
-						<div class="_payment__content">
+						<div class="d-flex mb-3 _payment__content">
 							<div class="_payment_logo">
 								<img src="img/Ringo_Dostavka.png" alt="">
 							</div>
@@ -317,7 +333,7 @@
 								вартість доставки: <span>БЕЗКОШТОВНО</span>
 							</div>
 						</div>
-						<div class="_payment__content">
+						<div class="d-flex mb-3 _payment__content">
 							<div class="_payment_logo">
 								<img src="img/Ringo_Dostavka.png" alt="">
 							</div>
@@ -327,7 +343,7 @@
 								вартість доставки: <span>БЕЗКОШТОВНО</span>
 							</div>
 						</div>
-						<div class="_payment__content">
+						<div class="d-flex mb-3 _payment__content">
 							<div class="_payment_logo">
 								<img src="img/Ringo_Dostavka.png" alt="">
 							</div>
@@ -337,18 +353,18 @@
 								вартість доставки: <span>БЕЗКОШТОВНО</span>
 							</div>
 						</div>
-						<div class="_payment_footer"><a href="#">Більше інформації</a></div>
+						<div class="text-center _payment_footer"><a href="#">Більше інформації</a></div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row tabs_container">
 				<div class="col _tabs">
-					<div class="_tabs_header">
+					<div class="mb-3 _tabs_header">
 						<nav>
-							<div class="" id="nav-tab" role="tablist">
+							<div class="d-flex" id="nav-tab" role="tablist">
 								<a
-									class=""
+									class="_tabs_header_item _active"
 									id="nav-1-tab"
 									data-toggle="tab"
 									href="#nav-1"
@@ -360,7 +376,7 @@
 									Характеристики
 								</a>
 								<a
-									class=""
+									class="_tabs_header_item"
 									id="nav-2-tab"
 									data-toggle="tab"
 									href="#nav-2"
@@ -372,7 +388,7 @@
 									Огляд
 								</a>
 								<a
-									class=""
+									class="_tabs_header_item"
 									id="nav-3-tab"
 									data-toggle="tab"
 									href="#nav-3"
@@ -384,7 +400,7 @@
 									Відео
 								</a>
 								<a
-									class=""
+									class="_tabs_header_item"
 									id="nav-4-tab"
 									data-toggle="tab"
 									href="#nav-4"
@@ -396,7 +412,7 @@
 									Фото
 								</a>
 								<a
-									class=""
+									class="_tabs_header_item"
 									id="nav-5-tab"
 									data-toggle="tab"
 									href="#nav-5"
@@ -420,111 +436,111 @@
 								aria-labelledby="nav-1-tab"
 							>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 1</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 2</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 3</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 4</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 5</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 6</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 7</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 8</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 9</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 10</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 11</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 12</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 13</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 14</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 15</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 16</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 17</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 18</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 19</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 20</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 21</div>
 									</div>
-									<div class="col-12 col-md-6 d-flex justify-content-around _tabs_content__item">
+									<div class="col-12 col-md-6 mb-3 d-flex justify-content-around _tabs_content__item">
 										<div class="_name">Виробник:</div>
 										<div class="_value">Xiaomi 22</div>
 									</div>
@@ -570,107 +586,119 @@
 					</div>
 				</div>
 			</div>
-
-			<div class="row delivery_payment_info__container">
-				<div class="col-12 col-md-4 delivery_payment_info__column">
-					<h3>Доставка по Києву</h3>
-					<ul>
-						<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
-						<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
-						<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
-					</ul>
-				</div>
-				<div class="col-12 col-md-4">
-					<h3>Доставка по Києву</h3>
-					<ul>
-						<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
-						<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
-						<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
-					</ul>
-				</div>
-				<div class="col-12 col-md-4">
-					<h3>Доставка по Києву</h3>
-					<ul>
-						<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
-						<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
-						<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="row avalible-now">
-				<h1 class="text-center text-dark w-100 mt-4 _title">
-					У наявності зараз в м. 
-					<div class="d-inline-block dropdown">
-						<a class="dropdown-toggle align-self-center" data-toggle="dropdown">
-							Київ
-							<span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li class="dropdown-item"><a href="./item.html" target="_blank">Житомир</a></li>
-							<li class="dropdown-item"><a href="./item.html" target="_blank">Вінниця</a></li>
-							<li class="dropdown-item"><a href="./item.html" target="_blank">Львів</a></li>
-						</ul>
-					</div>
-				</h1>
-				<p>У магазинах вашого міста, на жаль, зараз товару немає. Відкрийте мапу й виберіть інший населений пункт.</p>
-				<a href="#">Подивитися на мапі</a>
-			</div>
-
-			<div class="row bottom_banners">
-				<div class="col-12 col-lg-6 banner__items">
-					<div class="row featured_product">
-						<div class="col-2 col-md-3 featured_product__image">
-							<img class="w-100" src="img/cheaper.jpg" alt="">
-							<a href="#">Дивитися всі характеристики</a>
-						</div>
-						<div class="col featured_product__description">
-							<h3>XIAOMI Mi9 Lite 6/64GB Aurora Blue</h3>
-							<ul>
-								<li>Роздільна здатність основної камери, Мп: 48</li>
-								<li>Роздільна здатність основної камери, Мп: 48</li>
-								<li>Роздільна здатність основної камери, Мп: 48</li>
-								<li>Роздільна здатність основної камери, Мп: 48</li>
-								<li>Роздільна здатність основної камери, Мп: 48</li>
-							</ul>
-						</div>
-					</div>
-					<div class="row">
-						<div class="featured_product_price">
-							<span>7499 грн</span>
-							<a href="#">Купити</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-12 col-lg-6 banner__items">
-					<div class="row featured_product">
-						<div class="col-2 col-md-3 featured_product__image">
-							<img class="w-100" src="img/cheaper.jpg" alt="">
-							<a href="#">Дивитися всі характеристики</a>
-						</div>
-						<div class="col featured_product__description">
-							<h3>XIAOMI Mi9 Lite 6/64GB Aurora Blue</h3>
-							<ul>
-								<li>Роздільна здатність основної камери, Мп: 48</li>
-								<li>Роздільна здатність основної камери, Мп: 48</li>
-								<li>Роздільна здатність основної камери, Мп: 48</li>
-								<li>Роздільна здатність основної камери, Мп: 48</li>
-								<li>Роздільна здатність основної камери, Мп: 48</li>
-							</ul>
-						</div>
-					</div>
-					<div class="row">
-						<div class="featured_product_price">
-							<span>7499 грн</span>
-							<a href="#">Купити</a>
-						</div>
-					</div>
-				</div>
-			</div>
 		</main>
 
-		<!-- <footer class="footer">
+		<div class="main_2">
+			<div class="container">
+				<div class="row p-5 delivery_payment_info__container">
+					<div class="col-12 col-md-4 delivery_payment_info__column">
+						<h3 class="mb-2">Доставка по Києву</h3>
+						<ul>
+							<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
+							<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
+							<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-4">
+						<h3 class="mb-2">Доставка по Києву</h3>
+						<ul>
+							<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
+							<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
+							<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-4">
+						<h3 class="mb-2">Доставка по Києву</h3>
+						<ul>
+							<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
+							<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
+							<li>Безкоштовний самовивіз з <a href="#">магазинів ringoo</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main_3">
+			<div class="container">
+				<div class="row pl-5 pr-5 pb-5 text-center avalible-now">
+					<h1 class="text-dark w-100 mt-4 _title">
+						У наявності зараз в м. 
+						<div class="d-inline-block dropdown">
+							<a class="dropdown-toggle align-self-center" data-toggle="dropdown">
+								Київ
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-item"><a href="./item.html" target="_blank">Житомир</a></li>
+								<li class="dropdown-item"><a href="./item.html" target="_blank">Вінниця</a></li>
+								<li class="dropdown-item"><a href="./item.html" target="_blank">Львів</a></li>
+							</ul>
+						</div>
+					</h1>
+					<p class="w-100">У магазинах вашого міста, на жаль, зараз товару немає. Відкрийте мапу й виберіть інший населений пункт.</p>
+					<a class="see_on_map" href="#">Подивитися на мапі</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="main_4">
+			<div class="container">
+				<div class="row p-5 bottom_banners">
+					<div class="p-3 banner__items">
+						<div class="row mr-0 ml-0 mb-2 featured_product">
+							<div class="col-2 col-md-3 featured_product__image">
+								<img class="w-100" src="img/cheaper.jpg" alt="">
+								<a href="#">Дивитися всі характеристики</a>
+							</div>
+							<div class="col featured_product__description">
+								<h3>XIAOMI Mi9 Lite 6/64GB Aurora Blue</h3>
+								<ul>
+									<li>Роздільна здатність основної камери, Мп: 48</li>
+									<li>Роздільна здатність основної камери, Мп: 48</li>
+									<li>Роздільна здатність основної камери, Мп: 48</li>
+									<li>Роздільна здатність основної камери, Мп: 48</li>
+									<li>Роздільна здатність основної камери, Мп: 48</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row ml-0 mr-0 d-flex justify-content-end">
+							<div class="featured_product_price">
+								<span class="pr-3">7499 грн</span>
+								<a href="#">Купити</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="p-3 banner__items">
+						<div class="row ml-0 mr-0 mb-2 featured_product">
+							<div class="col-2 col-md-3 featured_product__image">
+								<img class="w-100" src="img/cheaper.jpg" alt="">
+								<a href="#">Дивитися всі характеристики</a>
+							</div>
+							<div class="col featured_product__description">
+								<h3>XIAOMI Mi9 Lite 6/64GB Aurora Blue</h3>
+								<ul>
+									<li>Роздільна здатність основної камери, Мп: 48</li>
+									<li>Роздільна здатність основної камери, Мп: 48</li>
+									<li>Роздільна здатність основної камери, Мп: 48</li>
+									<li>Роздільна здатність основної камери, Мп: 48</li>
+									<li>Роздільна здатність основної камери, Мп: 48</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row ml-0 mr-0 d-flex justify-content-end">
+							<div class="featured_product_price">
+								<span class="pr-3">7499 грн</span>
+								<a href="#">Купити</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
 			<section class="footer__newsletter">
 				<iframe src="https://secure.esputnik.com.ua/3PtWfbEayes" frameborder="0" width="100%" height="288" scrolling="no"></iframe>
 			</section>
@@ -764,7 +792,7 @@
 			</section>
 
 			<section class="copyright">Усі права захищені</section>
-		</footer> -->
+		</footer>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
