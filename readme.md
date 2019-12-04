@@ -2,7 +2,7 @@
 ```bash
 
 # Download repository:
-git clone https://github.com/qPrutp/webpack-babel-react-css-file.git
+git clone https://github.com/qPrutp/temp_dz.git
 
 # Go to the app:
 cd webpack-babel-react-css-file
