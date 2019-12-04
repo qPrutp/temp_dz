@@ -55,3 +55,5 @@ npm run build
 [video 1: <b>&#8657;</b> Настройка Webpack 4 шаблона. Установка Babel 7 и webpack dev server. Настройка js на примере vue](https://www.youtube.com/watch?v=JcKRovPhGo8)<br />
 [video 2: <b>&#8657;</b> Полная настройка Webpack 4 препроцессоров. Sass, настройка post css плагинов, минификация стилей.](https://www.youtube.com/watch?v=qqTIqwQX8nc)<br />
 [video 3: <b>&#8657;</b> Самое важное по WEBPACK 4 - обработка картинок и html. Webpack-merge. Обработка статических файлов](https://www.youtube.com/watch?v=QF3EcxymIcc&t=122s)
+
+https://github.com/notrab/create-react-app-redux
