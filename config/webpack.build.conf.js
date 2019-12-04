@@ -1,15 +1,22 @@
 const merge = require('webpack-merge');
 const baseWebpackConfig = require('./webpack.base.conf');
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const HtmlWebPackPlugin = require("html-webpack-plugin"); // for Apache
 
 const buildWebpackConfig = merge(baseWebpackConfig, {
     mode: 'production',
     output: {
-        // якщо потрібно абсолютний шлях до імтортованих файлів js та css в index.html
-        // значення publicPath: '/', якщо відносне publicPath: './'
-        // параметр перенесено з webpack.base.conf оскільки тут вищий пріоритет при мерджі
         publicPath: './',
     },
-    plugins: []
+    plugins: [
+        new CleanWebpackPlugin(),
+        
+        new HtmlWebPackPlugin({ // for Apache
+            hash: false,
+            template: `${baseWebpackConfig.externals.paths.src}/index.html`,
+            filename: "./index.php"
+        }),
+    ]
 });
 
 module.exports = new Promise((resolve, reject) => {
